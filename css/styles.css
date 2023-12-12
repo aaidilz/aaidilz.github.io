@@ -8,7 +8,6 @@
 }
 body{
     background-color: black;
-    overflow-x: hidden;
 }
 
 html{
@@ -73,13 +72,13 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background: var(--red);
+    background: var(--primary);
     height: 3px;
     transition: 0.3s;
 }
 .navbar a:hover::before{
     width: 100%;
-    box-shadow: 0 0 10px var(--red);
+    box-shadow: 0 0 10px var(--primary);
 }
 .navbar a:active::before{
     transform: scale(0.5);
@@ -155,6 +154,11 @@ html{
     background-color: rgba(0, 0, 0, 0);
     transition: 0.5s;
     position: relative;
+    border-radius: 15px;
+}
+.home-content button:hover{
+    background-color: var(--red);
+    border: 1px solid var(--red);
 }
 .home-content button::after{
     content: '>>>';
@@ -203,12 +207,10 @@ html{
     align-items: center;
     margin: 0 10px;
 }
-
 .card {
     text-align: left;
     margin: 30px;
 }
-
 .card span {
     font-size: 18px;
     color: var(--grey1);
@@ -253,6 +255,10 @@ html{
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    transition: 0.5s;
+}
+.exp-card:hover{
+    transform: scale(1.2);
 }
 .exp-card h4{
     padding-top: 10px;
@@ -265,6 +271,7 @@ text-align: center;
 }
 .project{
     position: relative;
+    overflow: hidden;
 }
 .project-title{
     font-size: 24px;
@@ -273,15 +280,14 @@ text-align: center;
     text-align: center;
 }
 .project-container{
+    width: 90%;
     margin: auto;
-    width: 85%;
 }
 .project-content{
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin-bottom: 100px;
-
 }
 .project-desc{
     max-width: 400px;
@@ -300,6 +306,7 @@ text-align: center;
 .about{
     position: relative;
     height: 100vh;
+    overflow: hidden;
 }
 .about-title{
     font-size: 24px;
@@ -439,6 +446,7 @@ text-align: center;
     }
     .about-content img{
         width: 150px;
+        
     }
 }
 /* extra */
