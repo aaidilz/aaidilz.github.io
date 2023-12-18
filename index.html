@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1.0, user-scalable=no">
@@ -7,24 +8,30 @@
     <!-- assets -->
     <link rel="stylesheet" href="css/styles.css">
     <!-- library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
 
+
 </head>
+
 <body>
     <!-- navbar -->
     <nav class="header">
-        <a href="#" class="brand">LOGO</a>
+        <a href="#" class="brand">DiaZ</a>
         <div class="navbar">
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">Project</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#footer">Contact</a></li>
             </ul>
         </div>
         <div class="menu-toggle">
@@ -40,29 +47,69 @@
         <div class="home-content" data-aos="fade-left">
             <p>AIDIL FIKRI</p>
             <span>> </span><span id="typed"></span>
-            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi reiciendis deleniti aliquam cupiditate, iste expedita.</h5>
+            <h5>Journey to fortify digital landscapes against potential threats and vulnerabilities.</h5>
             <button onclick="window.location.href='#about'">Get Started</button>
         </div>
     </section>
     <!-- end_hero -->
-        <!-- about -->
-        <div class="about" id="about">
-            <div class="about-title">
-                <h3>こんにちは!</h3>
-            </div>
-            <div class="about-container">
-                <div class="about-content">
-                        <img src="image/me.jpeg" data-aos="fade-right" data-aos-duration="1000">
-                    <div class="about-desc" data-aos="fade-left" data-aos-duration="1000">
-                        <h4 class="name">Muhammad Aidil Fikri</h4>
-                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum fugit sint commodi! Labore qui, saepe sapiente suscipit nam quidem in sit accusamus mollitia? Rem porro ea repudiandae esse sed itaque?</span>
-                    </div>
+    <!-- about -->
+    <div class="about" id="about">
+        <div class="about-title">
+            <h3>Greeting!</h3>
+        </div>
+        <div class="about-container">
+            <div class="about-content">
+                <img src="image/me.jpeg" data-aos="fade-right" data-aos-duration="1000">
+                <div class="about-desc" data-aos="fade-left" data-aos-duration="1000">
+                    <h4 class="name">Muhammad Aidil Fikri</h4>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum fugit sint commodi! Labore
+                        qui, saepe sapiente suscipit nam quidem in sit accusamus mollitia? Rem porro ea repudiandae esse
+                        sed itaque?</span>
                 </div>
             </div>
+            <div class="title">
+                <h3>Learning History</h3>
+            </div>
+            <div class="timeline">
+                <div class="timeline-empty"></div>
+                <div class="timeline-middle">
+                    <div class="timeline-circle"></div>
+                </div>
+                <div class="timeline-container timeline-content" data-aos="fade-left" data-aos-duration="1000">
+                    <h3>Cybrary Training - 2019</h3>
+                    <p>Basic Cyber Security | Web fundamental | ATT&K Mitre fundamental</p>
+                </div>
+                <div class="timeline-container timeline-content" data-aos="fade-right" data-aos-duration="1000">
+                    <h3>TryHackme - 2020</h3>
+                    <p>Offensive Pentesting | Cyber Methodologies | Ethical</p>
+                </div>
+                <div class="timeline-middle">
+                    <div class="timeline-circle"></div>
+                </div>
+                <div class="timeline-empty"></div>
+                <div class="timeline-empty"></div>
+                <div class="timeline-middle">
+                    <div class="timeline-circle"></div>
+                </div>
+                <div class=" timeline-container timeline-content" data-aos="fade-left" data-aos-duration="1000">
+                    <h3>HackTheBox - 2022</h3>
+                    <p>Capture The FLAG | Red/Blue Teaming | KHOT</p>
+                </div>
+                <div class=" timeline-container timeline-content" data-aos="fade-right" data-aos-duration="1000">
+                    <h3>2023 - NOW</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="timeline-middle">
+                    <div class="timeline-circle"></div>
+                </div>
+                <div class="timeline-empty"></div>
+            </div>
         </div>
-        <!-- end_about -->
+    </div>
+    
+    <!-- end_about -->
     <!-- experience -->
-    <section class="experience">
+    <section class="experience" id="exp">
         <div class="exp-title" data-aos="fade">
             <h3>Experience</h3>
         </div>
@@ -121,47 +168,37 @@
     </section>
     <!-- end_experience -->
     <!-- sevices -->
-    <section class="sevices">
+    <section class="sevices" id="service">
         <div class="title" data-aos="zoom-in">
             <h3>Service</h3>
         </div>
-            <div class="card-container">
-                <div class="card-warpper" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="card">
-                        <span>01</span>
-                        <h3>PROGRAMMING</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, laboriosam.</p>
-                        <a href="#">
-                            <i class="fa-regular fa-circle-down"></i> <span>more...</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="card-warpper" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="card">
-                        <span>02</span>
-                        <h3>WEB DEVELOPMENT</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, laboriosam.</p>
-                        <a href="#">
-                            <i class="fa-regular fa-circle-down"></i> <span>more...</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="card-warpper" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="card">
-                        <span>03</span>
-                        <h3>CYBER SECURITY</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, laboriosam.</p>
-                        <a href="#">
-                            <i class="fa-regular fa-circle-down"></i> <span>more...</span>
-                        </a>
-                    </div>
+        <div class="card-container">
+            <div class="card-warpper" data-aos="fade-up" data-aos-duration="1000">
+                <div class="card">
+                    <span>01</span>
+                    <h3>PROGRAMMING</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor.</p>
                 </div>
             </div>
+            <div class="card-warpper" data-aos="fade-up" data-aos-duration="1000">
+                <div class="card">
+                    <span>02</span>
+                    <h3>WEB DEVELOPMENT</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis </p>
+                </div>
+            </div>
+            <div class="card-warpper" data-aos="fade-up" data-aos-duration="1000">
+                <div class="card">
+                    <span>03</span>
+                    <h3>CYBER SECURITY</h3>
+                    <p>ipsum a modi odio quisquam cupiditate repellat iste odit at cumque voluptatem necessitatibus aliquam. Debitis, sed!</p>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- end_sevices -->
-    <form></form>
     <!-- project -->
-    <section class="project">
+    <section class="project" id="project">
         <div class="project-title" data-aos="fade">
             <h3>My Project</h3>
         </div>
@@ -171,14 +208,18 @@
                 <div class="project-desc">
                     <h3>PROJECT 01</h3>
                     <h4>Lorem, ipsum dolor.</h4>
-                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates aspernatur dolorum doloremque maiores quos, molestiae autem totam consequuntur quis. Natus accusantium similique cumque aliquam corrupti labore, reprehenderit dignissimos voluptates sunt!</span>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates aspernatur dolorum
+                        doloremque maiores quos, molestiae autem totam consequuntur quis. Natus accusantium similique
+                        cumque aliquam corrupti labore, reprehenderit dignissimos voluptates sunt!</span>
                 </div>
             </div>
             <div class="project-content" data-aos="fade-left" data-aos-duration="1000">
                 <div class="project-desc">
                     <h3>PROJECT 02</h3>
                     <h4>Lorem, ipsum dolor.</h4>
-                    <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, corrupti nihil excepturi id, temporibus non nam minus doloremque quam suscipit eligendi veritatis ipsam numquam. Cum eaque blanditiis officiis nulla provident!</span>
+                    <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, corrupti nihil
+                        excepturi id, temporibus non nam minus doloremque quam suscipit eligendi veritatis ipsam
+                        numquam. Cum eaque blanditiis officiis nulla provident!</span>
                 </div>
                 <img src="image/program/ruby.png" alt="">
             </div>
@@ -187,22 +228,26 @@
                 <div class="project-desc">
                     <h3>PROJECT 03</h3>
                     <h4>Lorem, ipsum dolor.</h4>
-                    <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae a voluptate repellendus, autem amet soluta, laudantium ab atque natus nostrum aspernatur optio ullam nihil at praesentium iste dicta fuga labore!</span>
+                    <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae a voluptate repellendus,
+                        autem amet soluta, laudantium ab atque natus nostrum aspernatur optio ullam nihil at praesentium
+                        iste dicta fuga labore!</span>
                 </div>
             </div>
             <div class="project-content" data-aos="fade-left" data-aos-duration="1000">
                 <div class="project-desc">
                     <h3>PROJECT 04</h3>
                     <h4>Lorem, ipsum dolor.</h4>
-                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, repudiandae inventore natus dignissimos incidunt hic assumenda qui alias repellendus necessitatibus, doloribus similique maxime deleniti magnam voluptatem, voluptatibus aperiam ipsum! Vero!</span>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, repudiandae inventore natus
+                        dignissimos incidunt hic assumenda qui alias repellendus necessitatibus, doloribus similique
+                        maxime deleniti magnam voluptatem, voluptatibus aperiam ipsum! Vero!</span>
                 </div>
                 <img src="image/program/html.png" alt="">
             </div>
         </div>
     </section>
     <!-- end_project -->
-    
-    <section class="footer">
+
+    <section class="footer" id="footer">
         <div class="footer-title">
             <h3>Contact Me</h3>
         </div>
@@ -220,44 +265,57 @@
             </div>
         </div>
         <div class="footer-content">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus odit autem dolor. Voluptatibus ad inventore beatae ipsam vel quis error doloremque fuga? Veniam, soluta quisquam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta assumenda exercitationem ab adipisci velit veritatis.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus odit autem dolor. Voluptatibus ad
+                inventore beatae ipsam vel quis error doloremque fuga? Veniam, soluta quisquam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta assumenda exercitationem ab adipisci
+                velit veritatis.</p>
         </div>
         <div class="social">
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-whatsapp"></i>
-            <i class="fab fa-github"></i>
-            <i class="fab fa-spotify"></i>
+            <a href="https://www.instagram.com/aaidilz/">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://github.com/aaidilz">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://open.spotify.com/user/nnroxz6udluhll2x34937wyjf?si=114b0d25d4b944cb">
+                <i class="fab fa-spotify"></i>
+            </a>
         </div>
+        <span>Made with ❤️</span>
+        <span>© 2023 aaidilz | Under MIT License</span>
+
     </section>
 
     <script>
+        AOS.init();
 
-    AOS.init();
-    
-    const toggle = document.querySelector('.menu-toggle input');
-    const nav = document.querySelector('nav ul');
+        const toggle = document.querySelector('.menu-toggle input');
+        const nav = document.querySelector('nav ul');
 
-    toggle.addEventListener('click',function(){
-        nav.classList.toggle('slide')
-    })
+        toggle.addEventListener('click', function () {
+            nav.classList.toggle('slide')
+        })
 
-    var typed = new Typed('#typed', {
-      strings: ['Cyber Security'],
-      typeSpeed: 75,
-      cursorChar: '_',
-    });
+        var typed = new Typed('#typed', {
+            strings: ['Cyber Security'],
+            typeSpeed: 75,
+            cursorChar: '_',
+        });
 
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbxRkIw6QvxUHdRUDkC6WGrrnOaOCQhTsHGHIc_0DjTrVewOOVmUzl7Wu_nb4Se__94Z/exec'
-    const form = document.forms['submit-form']
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxRkIw6QvxUHdRUDkC6WGrrnOaOCQhTsHGHIc_0DjTrVewOOVmUzl7Wu_nb4Se__94Z/exec'
+        const form = document.forms['submit-form']
 
-    form.addEventListener('submit', e => {
-        e.preventDefault()
-        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => console.log('Success!', response))
-        .catch(error => console.error('Error!', error.message))
-    })
-      </script>
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
 
 </body>
+
 </html>
