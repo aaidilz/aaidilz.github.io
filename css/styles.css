@@ -369,18 +369,6 @@ margin: 0px 20px 20px 20px;
 .footer-content p{
     max-width: 45%;
 }
-.form-container{
-    display: flex;
-}
-.form-desc{
-    margin-top: 20px;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-}
-.desc-item{
-    margin-top: 10px;
-}
 form{
     margin:  0 30px;
 }
@@ -472,10 +460,6 @@ form{
     .project-content img{
         width: 150px;
         margin: 0 10px;
-    }
-    .form-desc{
-        width: 85%;
-        font-size: 15px;
     }
 }
 @media only screen and (min-width: 800px) {
