@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Development on DilzNotes</title>
+    <link>http://localhost:1313/contents/development/</link>
+    <description>Recent content in Development on DilzNotes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <managingEditor>untilspwn@gmail.com (aaidilz)</managingEditor>
+    <webMaster>untilspwn@gmail.com (aaidilz)</webMaster>
+    <copyright>© 2025 aaidilz</copyright>
+    <lastBuildDate>Fri, 13 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/contents/development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Konfigurasi SendMail Di Linux Server</title>
+      <link>http://localhost:1313/contents/development/configure-sendmail/</link>
+      <pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate>
+      <author>untilspwn@gmail.com (aaidilz)</author>
+      <guid>http://localhost:1313/contents/development/configure-sendmail/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Kontenerisasi App dengan Docker</title>
+      <link>http://localhost:1313/contents/development/docker-containerization/</link>
+      <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
+      <author>untilspwn@gmail.com (aaidilz)</author>
+      <guid>http://localhost:1313/contents/development/docker-containerization/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Linux Symbolic Link</title>
+      <link>http://localhost:1313/contents/development/linux-symlink/</link>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+      <author>untilspwn@gmail.com (aaidilz)</author>
+      <guid>http://localhost:1313/contents/development/linux-symlink/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Linux Privilage</title>
+      <link>http://localhost:1313/contents/development/linux-privilage/</link>
+      <pubDate>Sun, 27 Oct 2024 00:00:00 +0000</pubDate>
+      <author>untilspwn@gmail.com (aaidilz)</author>
+      <guid>http://localhost:1313/contents/development/linux-privilage/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Configure Fresh MySQL Server Install on Ubuntu</title>
+      <link>http://localhost:1313/contents/development/configure-fresh-mysql/</link>
+      <pubDate>Sat, 24 Aug 2024 00:00:00 +0000</pubDate>
+      <author>untilspwn@gmail.com (aaidilz)</author>
+      <guid>http://localhost:1313/contents/development/configure-fresh-mysql/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Configure PHPMyAdmin on Ubuntu</title>
+      <link>http://localhost:1313/contents/development/configure-phpmyadmin/</link>
+      <pubDate>Sat, 24 Aug 2024 00:00:00 +0000</pubDate>
+      <author>untilspwn@gmail.com (aaidilz)</author>
+      <guid>http://localhost:1313/contents/development/configure-phpmyadmin/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
